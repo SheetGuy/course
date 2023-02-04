@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+
+   header {
+
+      position: absolute;
+
+   }
+
+   .navbar {
+
+      width: 100vw;
+
+      position: fixed;
+
+      left: 0;
+
+      bottom: 0;
+
+      display: flex;
+
+      flex-direction: row;
+
+      justify-content: space-around;
+
+      background: linear-gradient(0deg, rgba(30, 30, 42, 1) 28%, rgba(30, 30, 42, 0.053211678515423744) 86%, rgba(30, 30, 42, 0.0014783471495241063) 100%);
+
+   }
+
+   .search-box {
+
+      max-width: 92vw;
+
+      width: 100%;
+
+      border-radius: 10px;
+
+      position: absolute;
+
+      top: 65px;
+
+      margin-right: 0;
+
+   }
+
+   #search-input {
+
+      font-size: 1.2rem;
+
+   }
+
+   .featured {
+
+      min-height: 470px;
+
+      margin-top: -28px !important;
+
+   }
+
+   .featured-img {
+
+      height: 250px;
+
+   }
+
+   .featured .featured-text {
+
+      position: absolute;
+
+      bottom: 110px;
+
+      left: 10;
+
+   }
+
+   .home-title {
+
+      font-size: 2rem;
+
+      font-weight: 600;
+
+   }
+
+   .featured-text p {
+
+      font-size: 0.938rem;
+
+      margin: 10px 0 10px;
+
+      color: var(--text-color-color);
+
+   }
+
+   .featured-text span {
+
+      font-size: 1rem;
+
+   }
+
+   .heading-title {
+
+      font-size: 1.1rem;
+
+   }
+
+   .logo {
+
+      font-size: 1.7rem;
+
+      margin-left: 1.5rem;
+
+      margin-bottom: 10px;
+
+   }
+
+   .content-list {
+
+      margin-top: -10rem;
+
+   }
+
+   .watch-section {
+
+      margin-top: -4.3rem;
+
+   }
+
+   .added-recently-content {
+
+      gap: 10px;
+
+   }
+
+   .watch-box {
+
+      min-width: 140px;
+
+      height: 210px;
+
+   }
+
+   .wrapper .watch-box .play-icon {
+
+      width: 55px;
+
+      height: 55px;
+
+      left: 34%;
+
+      top: 40%;
+
+   }
+
+   .grid .watch-box .play-icon {
+
+      width: 65px;
+
+      height: 65px;
+
+      left: 34%;
+
+      top: 40%;
+
+   }
+
+   .grid {
+
+      gap: 1rem;
+
+   }
+
+   .watch-title {
+
+      font-size: 0.9rem;
+
+   }
+
+   .watch-date {
+
+      font-size: 0.8rem;
+
+   }
+
+   .wrapper .watch-box:nth-child(1) {
+
+      margin-left: 10px;
+
+   }
+
+   .wrapper .watch-box:nth-last-child(1) {
+
+      margin-right: 10px;
+
+   }
+
+}
