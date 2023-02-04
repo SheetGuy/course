@@ -19,6 +19,7 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-thumb {
    background: var(--main-color);
+   border-radius: 12px;
 }
 
 :root {
